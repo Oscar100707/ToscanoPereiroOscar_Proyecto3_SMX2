@@ -54,12 +54,14 @@ p {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+    margin-bottom: 5%;
 }
 
 .numbered-text {
     margin-top: 20px;
     width: 100%;
     text-align: left;
+    margin-bottom: 6%;
 }
 
 .numbered-text h3 {
