@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design is the way how you express the feelings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: left;
+            height: 100vh;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+        }
+        .container {
+            width: 100%;
+            padding: 50px 0;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .subtitle {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            color: gray;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 23%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block;
+        }
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            text-align: left;
+        }
+        .card-title {
+            font-weight: bold;
+        }
+        .card-text {
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Design is the way how<br> you express the feelings</h1>
+        <div class="subtitle">
+            <div>01<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div>02<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div>03<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div>04<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="imagen/mini rama.jpg" alt="Imagen 1">
+                <div class="card-content">
+                    <div class="card-title">Title</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen/ramas.jpg" alt="Imagen 2">
+                <div class="card-content">
+                    <div class="card-title">Title</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen/maceta.jpg" alt="Imagen 3">
+                <div class="card-content">
+                    <div class="card-title">Title</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen/pared.jpg" alt="Imagen 4">
+                <div class="card-content">
+                    <div class="card-title">Title</div>
+                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
