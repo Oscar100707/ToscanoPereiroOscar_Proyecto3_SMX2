@@ -1,6 +1,7 @@
 body {
     background-color: #f3f4f6;
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
     min-height: 100vh;
     font-family: Arial, sans-serif;
