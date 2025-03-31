@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
 }
 
-.carta-3 {
+.Prototipo-4 {
     width: 800px;
     margin-top: 70px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
@@ -14,27 +14,27 @@ body {
     padding-top: 50px;
 }
 
-.carta-3 > div {
+.Prototipo-4 > div {
     display: flex;
     margin-bottom: 50px;
     gap: 82px;
 }
 
-.carta-3 h2 {
+.Prototipo-4 h2 {
     font-size: 52px;
     margin-top: 5px;
 }
 
-.carta-3__parte {
+.Prototipo-4_parte2 {
     width: 40%;
 }
 
-.carta-3__parte {
+.Prototipo-4_parte2 {
     color: #777;
     line-height: 24px;
 }
 
-.carta-3__parte button {
+.Prototipo-4_parte2 button {
     border: none;
     background-color: #333;
     color: #fff;
@@ -42,6 +42,6 @@ body {
     border-radius: 10px;
 }
 
-.carta-3 img {
+.Prototipo-4 img {
     width: 100%;
 }

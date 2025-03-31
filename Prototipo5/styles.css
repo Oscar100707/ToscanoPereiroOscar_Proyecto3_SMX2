@@ -53,10 +53,6 @@ body {
     height: 300px;
 }
 
-img[src="img__carta-2/imagen2.png"]{
-    margin-top: 100px;
-}
-
 .carta-2__segunda-parte {
     display: flex;
     justify-content: center;
